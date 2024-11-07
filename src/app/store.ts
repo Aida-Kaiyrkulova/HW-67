@@ -1,11 +1,11 @@
-import { configureStore } from '@reduxjs/toolkit';
-import { codeReducer } from '../containers/Code/codeSlice.ts';
+import { configureStore } from "@reduxjs/toolkit";
+import { codeReducer } from "../containers/Code/codeSlice.ts";
 
 export const store = configureStore({
-  reducer:{
+  reducer: {
     code: codeReducer,
   },
 });
 
- export type RootState = ReturnType<typeof store.getState>;
- export type AddDispatch = typeof store.dispatch;
+export type RootState = ReturnType<typeof store.getState>;
+export type AddDispatch = typeof store.dispatch;

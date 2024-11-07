@@ -1,13 +1,12 @@
-import './App.css'
-import Code from './containers/Code/Code.tsx';
+import "./App.css";
+import Code from "./containers/Code/Code.tsx";
 
 const App = () => {
-
   return (
     <>
-    <Code />
+      <Code />
     </>
-  )
+  );
 };
 
-export default App
+export default App;
